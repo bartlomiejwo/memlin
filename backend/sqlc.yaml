@@ -1,0 +1,22 @@
+version: "2"
+sql:
+  - engine: "postgresql"
+    queries: 
+      - "internal/db/queries/vocabulary"
+      - "internal/db/queries/users"
+    schema: "internal/db/migrations/"
+    gen:
+      go:
+        package: "sqlcdb"
+        out: "internal/db/sqlc"
+        emit_json_tags: true
+        emit_prepared_queries: true
+        emit_interface: true
+        emit_exact_table_names: false
+        query_parameter_limit: 0
+        overrides:
+          - db_type: "pg_catalog.varchar"
+            go_type: "string"
+          - db_type: "text"
+            go_type: "string"
+        sql_package: "pgx/v5"

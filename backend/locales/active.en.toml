@@ -1,0 +1,23 @@
+[missing_redirect_uri]
+other = "Missing redirect_uri."
+
+[missing_auth_code]
+other = "Missing authentication code"
+
+[auth_fail]
+other = "Failed to authenticate."
+
+[user_info_retrieve_fail]
+other = "Failed to retrieve user info."
+
+[user_info_parse_fail]
+other = "Failed to parse user info."
+
+[user_create_update_fail]
+other = "Failed to create/update user."
+
+[jwt_create_fail]
+other = "Failed to create JWT."
+
+[refresh_token_create_fail]
+other = "Failed to create refresh token."
