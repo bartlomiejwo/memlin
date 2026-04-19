@@ -1,0 +1,49 @@
+{
+  "common": {
+    "test": "test"
+  },
+  "home_page": {
+    "hero": {
+      "title": "Learn Languages Faster with Interactive Flashcards",
+      "subtitle": "Boost your vocabulary and master languages like English, Spanish, and French with our intuitive and free flashcard system.",
+      "button": "Get Started - Login"
+    },
+    "benefits": {
+      "title": "Why Choose Us?",
+      "items": {
+        "personalized": "Personalized learning experience",
+        "multi_language": "Multi-language support (English, Spanish, French & more)",
+        "responsive": "Responsive and easy to use across all devices",
+        "free": "Free to use - no hidden fees"
+      }
+    }
+  },
+  "not_found_page": {
+    "hero": {
+      "title": "404 - Page Not Found",
+      "subtitle": "Sorry, the page you’re looking for doesn’t exist.",
+      "button": "Go back home"
+    }
+  },
+  "erorr_page": {
+    "hero": {
+      "title": "Error",
+      "button": "Go Home"
+    }
+  },
+  "login_page": {
+    "header": {
+      "title": "Welcome Back",
+      "subtitle": "Log in to your account to continue"
+    },
+    "actions": {
+      "login_google": "Sign in with Google"
+    },
+    "messages": {
+      "more_options": "More login options coming soon."
+    },
+    "links": {
+      "back_home": "Back to home"
+    }
+  }
+}
